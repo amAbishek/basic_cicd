@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "Basic_CICD"
+        IMAGE_NAME = "myfirstcicd"
     }
 
     stages {
