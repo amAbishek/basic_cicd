@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "simple-python-app"
+        IMAGE_NAME = "Basic_CICD"
     }
 
     stages {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-username/simple-python-app.git'
+                git branch: 'main', url: 'https://github.com/amAbishek/Basic_CICD.git'
             }
         }
 
